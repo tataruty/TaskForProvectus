@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="1992" started-at="2017-02-20T15:54:30Z" finished-at="2017-02-20T15:54:32Z">
+  <suite name="Suite1" duration-ms="1981" started-at="2017-02-20T16:59:00Z" finished-at="2017-02-20T16:59:02Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="1992" started-at="2017-02-20T15:54:30Z" finished-at="2017-02-20T15:54:32Z">
+    <test name="CheckTextInChapter1" duration-ms="1981" started-at="2017-02-20T16:59:00Z" finished-at="2017-02-20T16:59:02Z">
       <class name="myTests.CheckPageText">
-        <test-method status="PASS" signature="CheckTextInChapter1()[pri:0, instance:myTests.CheckPageText@625732]" name="CheckTextInChapter1" duration-ms="1131" started-at="2017-02-20T17:54:30Z" finished-at="2017-02-20T17:54:31Z">
+        <test-method status="PASS" signature="CheckTextInChapter1()[pri:0, instance:myTests.CheckPageText@1e6454ec]" name="CheckTextInChapter1" duration-ms="1106" started-at="2017-02-20T18:59:00Z" finished-at="2017-02-20T18:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTextInChapter1 -->
-      </class> <!-- myTests.CheckPageText -->
-      <class name="myTests.BasicTest">
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myTests.BasicTest@cad498c]" name="tearDown" is-config="true" duration-ms="848" started-at="2017-02-20T17:54:31Z" finished-at="2017-02-20T17:54:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:myTests.CheckPageText@1e6454ec]" name="tearDown" is-config="true" duration-ms="864" started-at="2017-02-20T18:59:02Z" finished-at="2017-02-20T18:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- myTests.BasicTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- myTests.CheckPageText -->
+    </test> <!-- CheckTextInChapter1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
